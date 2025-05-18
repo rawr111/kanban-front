@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8080/api/v1'; // Убедись, что схема (http/https) и порт верны
+const API_BASE_URL = 'http://95.163.237.78:8080/api/v1'; // Убедись, что схема (http/https) и порт верны
 
 export const getTasks = async (token) => {
     const response = await fetch(`${API_BASE_URL}/tasks`, {
